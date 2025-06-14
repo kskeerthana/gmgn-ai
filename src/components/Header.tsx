@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import { Search, Copy, Settings, ChevronDown, Wallet, Shield, Users, Gift } from 'lucide-react';
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuSeparator, DropdownMenuTrigger } from '@/components/ui/dropdown-menu';
+import WalletManager from '@/components/WalletManager';
 
 interface HeaderProps {
   onSignUp: () => void;
@@ -24,6 +25,7 @@ const Header: React.FC<HeaderProps> = ({
 }) => {
   const [isChainDropdownOpen, setIsChainDropdownOpen] = useState(false);
   const [isWalletDropdownOpen, setIsWalletDropdownOpen] = useState(false);
+  const [showWalletManager, setShowWalletManager] = useState(false);
 
   // Chain/Network Dropdown (always visible)
   const ChainDropdown = () => (

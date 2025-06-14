@@ -41,6 +41,70 @@ const Index = () => {
       price: "$0.005",
       status: "new"
     },
+    {
+      name: "KDACOIN",
+      symbol: "KDA",
+      avatar: "",
+      address: "7Xptx...ump",
+      age: "1s",
+      change1h: 20.1,
+      change5m: 10,
+      change1m: 10,
+      volume: "V $491.6",
+      marketCap: "MC $5K",
+      holders: 1,
+      transactions: 4,
+      price: "$0.005",
+      status: "new"
+    },
+    {
+      name: "KDACOIN",
+      symbol: "KDA",
+      avatar: "",
+      address: "7Xptx...ump",
+      age: "1s",
+      change1h: 20.1,
+      change5m: 10,
+      change1m: 10,
+      volume: "V $491.6",
+      marketCap: "MC $5K",
+      holders: 1,
+      transactions: 4,
+      price: "$0.005",
+      status: "new"
+    },
+    {
+      name: "KDACOIN",
+      symbol: "KDA",
+      avatar: "",
+      address: "7Xptx...ump",
+      age: "1s",
+      change1h: 20.1,
+      change5m: 10,
+      change1m: 10,
+      volume: "V $491.6",
+      marketCap: "MC $5K",
+      holders: 1,
+      transactions: 4,
+      price: "$0.005",
+      status: "new"
+    },
+    {
+      name: "KDACOIN",
+      symbol: "KDA",
+      avatar: "",
+      address: "7Xptx...ump",
+      age: "1s",
+      change1h: 20.1,
+      change5m: 10,
+      change1m: 10,
+      volume: "V $491.6",
+      marketCap: "MC $5K",
+      holders: 1,
+      transactions: 4,
+      price: "$0.005",
+      status: "new"
+    },
     // ... more tokens
   ];
 
@@ -61,10 +125,154 @@ const Index = () => {
       price: "$0.040",
       status: "completing"
     },
+    {
+      name: "WAR We Are Retarded",
+      symbol: "WAR",
+      avatar: "",
+      address: "4Q7Zj...ump",
+      age: "58m",
+      change1h: 92.4,
+      change5m: 73,
+      change1m: 0,
+      volume: "V $10.2K",
+      marketCap: "MC $40.3K",
+      holders: 395,
+      transactions: 512,
+      price: "$0.040",
+      status: "completing"
+    },
+    {
+      name: "WAR We Are Retarded",
+      symbol: "WAR",
+      avatar: "",
+      address: "4Q7Zj...ump",
+      age: "58m",
+      change1h: 92.4,
+      change5m: 73,
+      change1m: 0,
+      volume: "V $10.2K",
+      marketCap: "MC $40.3K",
+      holders: 395,
+      transactions: 512,
+      price: "$0.040",
+      status: "completing"
+    },
+    {
+      name: "WAR We Are Retarded",
+      symbol: "WAR",
+      avatar: "",
+      address: "4Q7Zj...ump",
+      age: "58m",
+      change1h: 92.4,
+      change5m: 73,
+      change1m: 0,
+      volume: "V $10.2K",
+      marketCap: "MC $40.3K",
+      holders: 395,
+      transactions: 512,
+      price: "$0.040",
+      status: "completing"
+    },
+    {
+      name: "WAR We Are Retarded",
+      symbol: "WAR",
+      avatar: "",
+      address: "4Q7Zj...ump",
+      age: "58m",
+      change1h: 92.4,
+      change5m: 73,
+      change1m: 0,
+      volume: "V $10.2K",
+      marketCap: "MC $40.3K",
+      holders: 395,
+      transactions: 512,
+      price: "$0.040",
+      status: "completing"
+    },
     // ... more tokens
   ];
 
   const completedTokens = [
+    {
+      name: "COD Cat Of Duty",
+      symbol: "COD",
+      avatar: "",
+      address: "6yb2V...RS8",
+      age: "3m",
+      change1h: 1,
+      change5m: 2,
+      change1m: 2,
+      volume: "V $2.1K",
+      marketCap: "MC $2.8K",
+      holders: 1,
+      transactions: 51,
+      price: "$0.003",
+      status: "completed"
+    },
+    {
+      name: "COD Cat Of Duty",
+      symbol: "COD",
+      avatar: "",
+      address: "6yb2V...RS8",
+      age: "3m",
+      change1h: 1,
+      change5m: 2,
+      change1m: 2,
+      volume: "V $2.1K",
+      marketCap: "MC $2.8K",
+      holders: 1,
+      transactions: 51,
+      price: "$0.003",
+      status: "completed"
+    },
+    {
+      name: "COD Cat Of Duty",
+      symbol: "COD",
+      avatar: "",
+      address: "6yb2V...RS8",
+      age: "3m",
+      change1h: 1,
+      change5m: 2,
+      change1m: 2,
+      volume: "V $2.1K",
+      marketCap: "MC $2.8K",
+      holders: 1,
+      transactions: 51,
+      price: "$0.003",
+      status: "completed"
+    },
+    {
+      name: "COD Cat Of Duty",
+      symbol: "COD",
+      avatar: "",
+      address: "6yb2V...RS8",
+      age: "3m",
+      change1h: 1,
+      change5m: 2,
+      change1m: 2,
+      volume: "V $2.1K",
+      marketCap: "MC $2.8K",
+      holders: 1,
+      transactions: 51,
+      price: "$0.003",
+      status: "completed"
+    },
+    {
+      name: "COD Cat Of Duty",
+      symbol: "COD",
+      avatar: "",
+      address: "6yb2V...RS8",
+      age: "3m",
+      change1h: 1,
+      change5m: 2,
+      change1m: 2,
+      volume: "V $2.1K",
+      marketCap: "MC $2.8K",
+      holders: 1,
+      transactions: 51,
+      price: "$0.003",
+      status: "completed"
+    },
     {
       name: "COD Cat Of Duty",
       symbol: "COD",
@@ -302,14 +510,14 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       {/* Top Navigation Header */}
       <Header
-        onSignUp={() => openAuthModal('signup')}
-        onLogIn={() => openAuthModal('login')}
-        onWalletClick={() => setShowWallet(true)}
-        onWalletManagerClick={() => setShowWalletManager(true)}
-        onCopyTradeClick={() => setShowCopyTrade(true)}
-        onHomeClick={handleHomeClick}
-        isLoggedIn={isLoggedIn}
-      />
+  onSignUp={() => openAuthModal('signup')}
+  onLogIn={() => openAuthModal('login')}
+  onWalletClick={() => setShowWallet(true)}
+  onWalletManagerClick={() => setShowWalletManager(true)}
+  onCopyTradeClick={() => setShowCopyTrade(true)}
+  onHomeClick={handleHomeClick}
+  isLoggedIn={isLoggedIn}
+/>
       
       {/* Mobile Navigation */}
       <Navigation activeTab={activeTab} onTabChange={setActiveTab} />
