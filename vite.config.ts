@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/gmgn-ai-react-clone-main/', // Make sure this matches your GitHub repo name exactly
+  base: '/gmgn-ai-react-clone-main-main/', // Make sure this matches your GitHub repo name exactly
   plugins: [
     react(),
     componentTagger() // Add the componentTagger plugin if you're using it
