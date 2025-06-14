@@ -5,10 +5,20 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/gmgn-ai-react-clone-main/', // Replace with your repo name
-  plugins: [react()],
+  base: '/gmgn-ai-react-clone-main/', // Make sure this matches your GitHub repo name exactly
+  plugins: [
+    react(),
+    componentTagger() // Add the componentTagger plugin if you're using it
+  ],
   build: {
-    outDir: 'dist'
+    outDir: 'dist',
+    emptyOutDir: true, // Clear the output directory before building
+    sourcemap: false, // Disable sourcemaps for production
+    rollupOptions: {
+      output: {
+        manualChunks: undefined, // Prevent chunk splitting issues
+      },
+    },
   },
   resolve: {
     alias: {
