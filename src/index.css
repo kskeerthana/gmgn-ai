@@ -1,0 +1,61 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 218 23% 11%;
+    --foreground: 210 40% 98%;
+
+    --card: 218 23% 11%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 218 23% 14%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 158 64% 52%;
+    --primary-foreground: 220 26% 14%;
+
+    --secondary: 217 19% 20%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217 19% 20%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 217 19% 20%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217 19% 20%;
+    --input: 217 19% 20%;
+    --ring: 158 64% 52%;
+
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    background: linear-gradient(135deg, #10b981, #059669);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  .glow-green {
+    box-shadow: 0 0 20px rgba(16, 185, 129, 0.3);
+  }
+}
