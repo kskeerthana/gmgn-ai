@@ -7,6 +7,9 @@ import { componentTagger } from "lovable-tagger";
 export default defineConfig({
   base: '/gmgn-ai-react-clone-main/', // Replace with your repo name
   plugins: [react()],
+  build: {
+    outDir: 'dist'
+  },
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
